@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="todoApp.css">
+</head>
+<body>
+   
+    <div class="container">
+       
+        <div class="main">
+            <div class="head">
+                <header><h1>Todo List </header>
+                </h1> 
+            </div>
+        <div class="wrapper">
+        <input type="text" placeholder="Add Items" class="inputs" id="input" required autofocus>
+        <button class="button" id="button"><i class="fa-solid fa-plus plus" id="button"></i></button>
+    </div>
+    
+        <div class="searchBar">
+        <input type="search" placeholder="Search List" id="search" class="search">
+        </div>
+    
+        <div class="items" id="list"></div>
+        <footer id="last" style="color: white;"><span id="num"></span>Total Items</footer>
+    </div>
+</div>
+    <script src="todoApp.js"></script>
+</body>
+</html>
